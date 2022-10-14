@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.contactus{
+    text-align: center;
+    padding-top: 40px;
+}
+.contactus h1{
+    font-size: 37px;
+}
+.contactus h2{
+    font-weight: 300;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.main-section{
+    padding: 446px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 200px; */
+}
+
+.email-section h3, 
+.phone-section h3{
+ font-weight: 300;
+ padding-top: 20px;
+}
+                    /* Footer Section */
+                    .footer-section{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        padding: 40px 0 70px 0;
+                        padding-left: 20px;
+                        background-color: black;
+                        color: white;
+                    }
+                    .footer h5{
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: white;
+                    }               
+                    
+                    
+                    .footer-sub{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .footer-sub h5{
+                        font-size: 20px;
+                        font-weight: 400;
+                        padding-bottom: 30px;
+                    }
+                     
+                    .footer-sub p{
+                        font-weight: 300;
+                        padding-bottom: 10px;
+                    
+                    }
+                    .footer-sub a{
+                        font-weight: 300;
+                        padding-bottom: 10px;
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                    .footer-refund a{
+                        text-decoration: none;
+                        color:  white;
+                        font-size: 15px;
+                    }
+
+                    @media( max-width: 900px){
+                        
+                        .contactus h1{
+                            font-size: 30px;
+                        }
+                        .contactus h2{
+                            font-size: 18px;
+                        }
+
+                        .main-section{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: stretch;
+                            padding: 186px 70px ;
+                            row-gap: 30px;
+                        }
+
+
+                        .email-section h1{
+                            font-size: 25px;
+                        }
+
+                        .email-section h3{
+                            font-size: 17px;
+                        }
+
+                        .phone-section h1{
+                            font-size: 25px;
+                        }
+
+                        .phone-section h3{
+                            font-size: 17px;
+                        }
+                        
+                        /* Footer */
+
+                    .footer-section{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        font-size: smaller;
+                        align-items: center;
+                        font-size: 10px;
+                    }            
+
+                    .footer h5{
+                        padding-bottom: 10px;
+                        font-size: 17px;
+                    }
+
+                    .footer-sub {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+
+                    .footer-sub h5{
+                        font-size: 17px;
+                        padding-top: 30px;
+                    }
+
+                    .footer-sub p{
+                        font-size: 12px;
+                    }
+                    .footer-refund p{
+                        padding-top: 30px;
+                        font-size: 17px;
+                    }
+                    }    
+                    

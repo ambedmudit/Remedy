@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+                    /* Navigation */
+.shopnow-nav{
+ text-align: center;
+ padding-top: 40px;
+font-size: 24px;
+}
+
+                    /* Main */
+
+.shopnow_main{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}  
+.shopnow_main img{
+    width: 300px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}     
+
+.img_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.img_1 h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img_1 p{
+    font-weight: 300;
+}
+.img_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.img_2 h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img_2 p{
+    font-weight: 300;
+}
+.img_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.img_3 h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img_3 p{
+    font-weight: 300;
+}
+
+.img_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.img_4 h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img_4 p{
+    font-weight: 300;
+}
+.img_5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.img_5 h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img_5 p{
+    font-weight: 300;
+}
+.img_6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.img_6 h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img_6 p{
+    font-weight: 300;
+}
+
+                /* Footer */
+                .footer-section{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 40px 0 70px 0;
+                    padding-left: 20px;
+                    background-color: black;
+                    color: white;
+                }
+                .footer h5{
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: white;
+                }               
+                
+                .footer-sub{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .footer-sub h5{
+                    font-size: 20px;
+                    font-weight: 400;
+                    padding-bottom: 30px;
+                }
+                 
+                .footer-sub p{
+                    font-weight: 300;
+                    padding-bottom: 10px;
+                
+                }
+
+                .footer-sub a{
+                    font-weight: 300;
+                    padding-bottom: 10px;
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                
+                .footer-refund a{
+                    text-decoration: none;
+                    color:  white;
+                    font-size: 15px;
+                }
+
+                @media( max-width: 900px){
+                        
+                    .shopnow-nav h1{
+                        font-size: 30px;
+                    }
+
+                    .shopnow_main{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 100px 0 0 0;
+                        row-gap: 100px;
+                    }
+
+                    .shopnow_main img{
+                        width: 200px;
+                        border-radius: 4px;
+                        margin-bottom: 20px;
+                    }     
+                    .shopnow_main h5,
+                        p{
+                        font-size: 15px;
+                    }
+
+                    .img_6 p{
+                        padding-bottom: 100px;
+                    }
+
+
+                    
+                    
+                    /* Footer */
+
+                    .footer-section{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        font-size: smaller;
+                        align-items: center;
+                        font-size: 10px;
+                    }            
+
+                    .footer h5{
+                        padding-bottom: 10px;
+                        font-size: 17px;
+                    }
+
+                    .footer-sub {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+
+                    .footer-sub h5{
+                        font-size: 17px;
+                        padding-top: 30px;
+                    }
+
+                    .footer-sub p{
+                        font-size: 12px;
+                    }
+                    .footer-refund p{
+                        padding-top: 30px;
+                        font-size: 17px;
+                    }
+                    }    
+                                    

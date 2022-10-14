@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+.hero{
+    margin-top: 20px;
+    background-image: url(RPhotos/brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+                    /* Navigation Section */
+.nav{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    padding:20px 0 10px 0;
+    background-color: white;
+    /* z-index: 1; */
+    
+}
+
+.hamburger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
+
+.bar{
+    width: 37px;
+    background-color: black;
+    height: 4px;
+    margin: 3px 3px;
+    border-radius: 20px;
+    
+}
+
+.web a{
+    text-decoration: none;
+    font-size: 33px;
+    color: #8b6951;
+    margin-left:20px ;
+    /* background-color: white; */
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.list ul{
+    
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-right: 20px;
+    list-style: none;
+    /* background-color: white; */
+    border-radius: 4px;
+    padding: 10px;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black; 
+    transition: opacity .3s;
+}
+.list li a:hover{
+background-color: transparent;
+opacity: .5;
+}
+                    /* Main Section */
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+   padding: 370px 0;
+ 
+}
+.h1{
+    opacity: 1;
+    font-size: 36px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #bf9272;
+}
+.button button{
+padding: 20px 20px;
+font-size: 20px;
+border-style: none;
+background-color: black;
+color: white;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color .25s;
+}
+
+.button button:hover{
+    background-color: white;
+    color: black;
+}
+.content-section{
+    background-color: white;
+    padding: 200px 0;
+    text-align: center;
+    color: black;
+}
+.content h2{
+    font-weight: 300;
+    font-size: 37px;
+    
+}
+.content h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 30px;
+    
+}
+
+.men-subsection h2{
+    text-align: start;
+    margin: 50px 0 0 95px ;
+    font-weight: 500;
+    font-size: 25px;
+}
+.women-subsection h2{
+    text-align: start;
+    margin: 50px 0 0 95px ;
+    font-weight: 500;
+    font-size: 25px;
+}
+.image {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    column-gap: 30px;
+}
+.image img{
+    width: 300px;
+    border-radius: 4px;
+}
+.shop{
+    margin-top: 100px;
+}
+.shop button{
+    padding: 20px 20px;
+font-size: 20px;
+border-style: none;
+background-color: white;
+color: black;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color .25s;
+}
+.shop button:hover{
+    background-color: black;
+    color: white;
+}
+
+                    /* Footer */
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 70px 0;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+}
+.footer h5{
+    font-size: 20px;
+    font-weight: 400;
+}               
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-sub{
+    display: flex;
+    flex-direction: column;
+}
+.footer-sub h5{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+ 
+.footer-sub p{
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+.footer-sub a{
+    font-weight: 300;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-refund a{
+    text-decoration: none;
+    color:  white;
+    font-size: 15px;
+}
+
+
+
+@media(max-width: 900px){
+        /* Navigation */
+    .hero{
+        background: url(RPhotos/brooke-lark-kXQ3J7_2fpc-unsplash.jpg);
+        background-size: cover;
+        min-height: fit-content;
+        background-repeat: no-repeat;
+    }
+
+    .web a{
+        font-size: 20px;
+        position: relative;
+    }
+    .nav{
+        
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        
+    }
+    .list ul{
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        row-gap: 15px;
+        
+    }
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        right: 3%;
+        top: 8%;
+        
+    }
+    
+    .bar{
+        width: 30px;
+        background-color: black;
+        height: 4px;
+        margin: 3px 3px;
+        border-radius: 20px;
+        
+    }
+            /* Main */
+    .h1 h1{
+        font-size: 40px;
+    }
+    .content h2{
+        font-size: 25px;
+    }
+    .content h3{
+        font-size: 13px;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        row-gap: 40px;
+        align-items: center;
+    }
+    .men-subsection h2{
+        font-size: 20px;
+    }
+    .image img{
+        width: 30vh;
+    }
+
+    .women-subsection h2{
+        font-size: 20px;
+    }
+
+                /* Footer */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    align-items: center;
+    font-size: 10px;
+}            
+
+.footer h5{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.footer-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-sub h5{
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+.footer-sub p{
+    font-size: 12px;
+}
+.footer-refund p{
+    padding-top: 30px;
+    font-size: 17px;
+}
+}
+
